@@ -1,0 +1,470 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+  
+}
+
+
+
+.page {
+
+  margin: 0 auto ;
+
+}
+
+
+html, body, input {
+  font-family: 'JetBrains Mono', monospace;
+}
+header,
+nav,
+ul{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+input{
+  position: absolute;
+
+}
+
+.input{
+  text-indent: 1.8rem;
+  font-size: 1.5rem;
+}
+form,
+input {
+  border-radius: 3.0rem;
+  height: 50px;
+  width: 250px;
+}
+.input-wrapper  i {
+  position: relative;
+  font-size: 15px;
+  margin: 0;
+  left: 10px;
+  top: 18px;
+}
+
+ul,
+a{
+  font-size: 2.0rem;
+}
+
+nav,
+ul,
+li,
+a {
+  border-radius: 30px;
+  transition: 0.6s;
+  text-decoration: none;
+  color: hsl(315, 8%, 10%);
+  
+}
+
+a{
+  padding: 1.0rem;
+}
+
+
+li >
+a:hover{
+  background-color:hsl(310, 35%, 58%);
+  
+  
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 3.0rem;
+  
+}
+
+
+
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: 'Mulish', sans-serif;
+  max-width: 50.0rem;
+  margin-right: 15rem;
+}
+
+
+
+
+
+  .hero {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 20.2rem 7.9rem 23.5rem 20.9rem
+    
+    }
+
+    h1 {
+
+      font-size: 5.9rem;
+      line-height: 5.6rem;
+      color:#1F1534;
+      font-weight: normal;
+    
+    
+    }
+
+    .hero 
+    h1
+    span {
+      font-weight: bold;
+      color:  hsl(309, 30%, 58%);
+    
+    
+    }
+
+    .hero p {
+      margin: 40px 0;
+      font-size: 2.4rem;
+      line-height: 28px;
+      color: #7D7987;
+    
+    
+    }
+
+  hr{
+    width: 568.001px;
+    background: hsl(309, 30%, 58%);
+  }
+
+  .btn-button button{
+    width: 5.0rem;
+    height: 5.0rem;
+    font-size: 2.0rem;
+    border-radius: 3.0rem;
+    background-color: transparent;
+    border: 2px solid hsl(310, 35%, 58%);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .btn-button button:hover{
+  background-color:hsl(310, 35%, 58%);
+
+  }
+
+  .btn-social > img {
+    width: 2.0rem;
+  }
+.btn-social{
+  background: hsl(309, 30%, 58%);
+  color: white;
+  border: none;
+  padding: 2.4rem 3.2rem 2.5rem 3.2rem;
+  display: flex;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  font-family: 'JetBrains Mono', monospace;
+  gap: 1.0rem;
+  border-radius: .4rem;
+  font-size: 1.8rem;
+
+  cursor: pointer;
+}
+
+.category {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    column-gap: 3.2rem;
+}
+
+.category-img{
+  width: 30.0rem;
+  height: 30.0rem;
+  border-radius: 100%;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+ 
+}
+.category-img:hover{
+  transform: scale(1.1);
+}
+
+.category-clothes {
+  margin-bottom: 9.0rem;
+}
+
+.category-text{
+  text-align: center;
+  font-size: 2.0rem;
+  text-transform: uppercase;
+
+}
+
+.container-img{
+  column-gap: 1rem;
+  border-radius: 0.5rem;
+  max-width: 100%;
+
+}
+.btn {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.content {
+  background-color: #e0dfe3;
+}
+.news{
+  position: relative;
+}
+
+.new-clothes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3.2rem;
+  
+}
+.new-clothes > h1 {
+  text-transform: uppercase;
+
+}
+
+
+
+.new-clothes> p {
+  font-size: 1.8rem;
+}
+
+
+
+
+.card-container {
+  display: flex;
+  flex-wrap: nowrap; 
+  justify-content: flex-start; 
+  align-items: center; 
+  padding: 0;
+  animation: 0.5s ease 0s 1 normal forwards running;
+  backface-visibility: hidden;
+  gap: 1.5rem;
+  overflow-x: auto; 
+  max-width: 1250px; 
+  margin: 4rem auto 0 auto;
+  overflow: hidden;
+  margin-bottom: 6.0rem;
+}
+
+.card-clothes {
+  flex: 0 0 auto; 
+  width: 40.0rem; 
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.img-clothes {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+}
+
+
+
+.produts-card{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: center;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+
+.produts-buttons {
+  font-size: 1.5rem;
+  color: hsl(309, 30%, 58%);
+  text-transform: uppercase;
+  text-align: center;
+  transition: visibility 0.5s ease 0s, opacity 0.5s ease 0s;
+  cursor: pointer;
+  border: 0px;
+  background: transparent;
+  margin-top: 8px;
+  padding-top: 2px;
+}
+
+
+.arrow-svg-left,
+.arrow-svg-right {
+  position: absolute; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  cursor: pointer;
+}
+
+.arrow-svg-left {
+  left: 40rem;
+}
+
+.arrow-svg-right {
+  right: 40rem;
+}
+.produts-card > h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: center;
+  
+}
+
+.produts-card > p {
+  font-size: 1.6rem;
+  color: hsl(309, 30%, 58%);
+}
+
+.produts-card > h3 {
+  font-size: 2.0rem;
+
+}
+
+footer {
+  padding: 5.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.0rem;
+  background-color: #e0dfe3;
+  
+  
+  
+}
+
+
+.footer-copy{
+  color: black;
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+.footer-autor{
+  color: black;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+
+@media (max-width: 892px) {
+  
+  
+  .logo{
+    margin-bottom: 2rem;
+  }
+
+  .hero {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 13rem auto;
+    align-items: center;
+  }
+
+  .text{
+    text-align: center;
+    margin-right: 0;
+  }
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.content{
+max-width: 100%;
+}
+
+.category {
+  flex-wrap: wrap;
+}
+  .container-img{
+
+  border-radius: 0.5rem;
+  max-width: 100%;
+  
+
+  }
+
+  .category-img{
+    width: 15rem;
+    height: 15rem;
+  
+  }
+  header,nav, ul {
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 0.5rem;
+    flex-direction: column;
+  }
+nav {
+  margin-left: 5rem;
+}
+  ul,
+  a{
+    font-size: 1.8rem;
+  }
+
+  a{
+    padding: 0rem;
+  }
+
+  .card-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 500px;
+    
+
+  }
+
+  .card-clothes{
+    width: 20.0rem;
+  }
+
+section.news{
+  position: relative;
+}
+
+
+
+.arrow-svg-left {
+  left: 5rem;
+}
+
+.arrow-svg-right {
+  right: 5rem;
+}
+
+
+
+
+  
+}
+  
